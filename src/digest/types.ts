@@ -19,7 +19,7 @@ export type DigestRow = {
   runs: number;
   retries: number; // lines with status "retry"
   lastStatus: RunStatus;
-  lastError: string | null; // error of the last line that had one
+  lastError: string | null; // error of the job's last line; null when that run had none
   firstAt: string;
   lastAt: string;
 };

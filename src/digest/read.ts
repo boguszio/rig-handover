@@ -68,7 +68,7 @@ export const readNight: ReadNight = (runsDir, night) => {
       row.runs++;
       if (line.status === 'retry') row.retries++;
       row.lastStatus = line.status;
-      if (line.error !== undefined) row.lastError = line.error;
+      row.lastError = line.error ?? null; // the last run's error only: an ok run clears it
       row.owner = line.owner ?? row.owner; // a later null doesn't erase a known owner
       row.lastAt = line.at;
     }
