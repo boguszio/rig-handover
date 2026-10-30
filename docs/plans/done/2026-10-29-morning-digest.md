@@ -3,7 +3,7 @@ plan: morning-digest
 status: done
 owner: rook
 opened: 2026-10-29
-closed: 2026-10-29
+closed: 2026-10-30
 ---
 
 # Morning digest
@@ -89,8 +89,8 @@ Done when: the preview link no longer shows the lane marker.
 | 4 | Digest JSON: GET /api/digest/:night | #1 | claude-code · sonnet-5.5 · default | 2026-10-29 |
 | 5 | Board links each night to its digest | #1 | claude-code · sonnet-5.5 · default | 2026-10-29 |
 | 6 | Route tests for the digest page and JSON | #1 | claude-code · haiku-5.5 · default | 2026-10-29 |
-| 7 | Preview for review | #3 | claude-code · opus-5.5 · medium | 2026-10-29 |
-| 8 | Clean up: preview without lane marker, plan to done | #7 | claude-code · opus-5.5 · medium | 2026-10-29 |
+| 7 | Preview for review | #3 | claude-code · opus-5.5 · medium | 2026-10-30 |
+| 8 | Clean up: preview without lane marker, plan to done | #7 | claude-code · opus-5.5 · medium | 2026-10-30 |
 | 9 | Last error shows a stale error when the last run was ok | #2 | claude-code · opus-5.5 · medium | 2026-10-29 |
 
 #9 came from review of the preview, not from the plan. #7 was closed once before the reviewer
